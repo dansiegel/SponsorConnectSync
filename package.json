@@ -1,0 +1,13 @@
+{
+  "name": "sponsorconnect-sync",
+  "version": "0.0.1",
+  "description": "Sync client for Sponsor Connect v2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dansiegel/SponsorConnectSync.git"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  }
+}

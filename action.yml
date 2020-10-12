@@ -1,0 +1,12 @@
+name: 'Sponsor Connect - Maintainer Sync'
+description: 'Kicks off a sync with SponsorConnect v2 for the given member OSS Maintainer to give sponsors access to Sponsor Connect resources'
+inputs:
+  client_id:
+    description: 'The client id for the participating maintainer'
+    required: true
+  github_token:
+    description: 'Token for the repo. Can be passed in using $\{{ secrets.GITHUB_TOKEN }}'
+    requried: true
+runs:
+  using: 'node12'
+  main: '/src/index.js'
